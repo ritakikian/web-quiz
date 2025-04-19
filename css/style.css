@@ -80,4 +80,34 @@ body {
     display: none;
   }
   
+  /* Quiz Selection */
+  .home-wrapper {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 260px;
+  }
+  
+  .quiz-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .quiz-list li {
+    background-color: #4FACFD;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-size: 14px;
+  }
+  
+  .quiz-list li:hover {
+    background-color: #3ea4f4;
+  }
   
