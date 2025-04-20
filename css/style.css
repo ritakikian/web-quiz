@@ -111,3 +111,55 @@ body {
     background-color: #3ea4f4;
   }
   
+  /* Quiz Section */
+  .quiz-wrapper {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+  }
+  
+  #questionsContainer {
+    margin-top: 20px;
+  }
+  
+  .question-block {
+    margin-bottom: 20px;
+  }
+  
+  .question-block p {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .question-block label {
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  #submitBtn {
+    padding: 10px;
+    background-color: #4FACFD;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #resultBox {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #resultBox h3 {
+    color: #4FACFD;
+  }
+  
